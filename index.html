@@ -4,11 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
+    <title>WDD 131 | Dynamic Web Fundamentals | Ramiro Tapia</title>
+    <meta name="description" content="Course Landing Page">
+    <meta name="author" content="Ramiro Tapia">
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>holaaaaa</h1>
+    <header>
+        <span id="course-title">
+            WDD 131 | Dynamic Web Fundamentals
+        </span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ramirotl/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a>
+                </li>
+                <li><a href="wdd131">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ramiro Tapia</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-header">
+                <p>My name is Sebatian Ramiro Tapia Loza, but I always go by Ramiro. I was born in La Paz and live in
+                    Santa
+                    Cruz de la Sierra, Bolivia. I am currently working as a remote interpreter. I love travelling, going
+                    to new places,
+                    and out-doors activities</p>
+                <img src="images/profile.webp" alt="Hello, my name is Ramiro Tapia">
+            </div>
+            <h3>Santa Cruz, Bolivia</h3>
+            <figure>
+                <img src="images/bolivia-flag.webp" alt="Official Flag of Bolivia">
+                <figcaption>Official Flag of Bolivia</figcaption>
+            </figure>
+
+            <p>Bolivia, is a landlocked country located in central South America. In simple terms the country's
+                geography consists
+                of a western Andean region and tropical lowlands to the east and north. More in detail the country
+                features a diverse
+                geography, including the vast Amazonian plain, the Gran Chaco, temperate valleys, the high-altitude
+                Altiplano plateau,
+                snow-capped peaks, mountains, encompassing a wide range of climates and biomes across its regions and
+                cities.</p>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://picsum.photos/" target="_blank">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> | Ramiro Tapia | Bolivia
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
