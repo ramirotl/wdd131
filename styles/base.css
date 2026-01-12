@@ -49,7 +49,7 @@ nav ul a {
 
 nav ul a:hover {
     text-decoration: overline;
-    color: rgb(165, 165, 42);
+    color: #ffd43b;
 }
 
 /* Main Section */
@@ -182,7 +182,7 @@ ul {
 
 .card ul li a:hover {
     text-decoration: underline;
-    color: blueviolet;
+    color: #8d1ac2;
 }
 
 /* Footer */
