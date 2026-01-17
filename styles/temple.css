@@ -1,0 +1,151 @@
+:root {
+    --primary-color: rgb(138, 43, 226);
+    --secondary-color: rgb(0, 0, 0);
+    --accent1-color: rgb(255, 255, 255);
+    --accent2-color: rgb(179, 141, 215);
+    --accent3-color: rgb(255, 255, 64);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', 'sans-serif';
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+.site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    display: block;
+    color: var(--accent1-color);
+}
+
+/* small view navigation */
+
+nav {
+    background-color: var(--primary-color);
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: var(--accent1-color);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+#menu.open~.site-title {
+    display: none;
+}
+
+header.open .site-title {
+    display: none;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navigation a {
+    display: none;
+    color: var(--accent1-color);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navigation a:hover {
+    text-decoration: underline double;
+    background-color: var(--accent2-color);
+    color: var(--accent3-color)
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+    display: block;
+}
+
+.active::before {
+    font-weight: bold;
+    /* just a wayfinding symbol for the user */
+}
+
+main {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* falta terminar de acomodar el grid e imagenes */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    padding: 1rem;
+}
+
+figure {
+    margin: 0 auto;
+
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+}
+
+footer p:first-of-type {
+    font-weight: 500;
+}
+
+#lastModified {
+    font-size: 0.85rem;
+}

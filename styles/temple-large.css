@@ -1,0 +1,27 @@
+@media (min-width: 880px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .site.title {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+}
