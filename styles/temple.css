@@ -30,8 +30,13 @@ header {
 
 /* small view navigation */
 
-nav {
+/* nav {
     background-color: var(--primary-color);
+} */
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 #menu {
@@ -60,11 +65,18 @@ header.open .site-title {
     display: none;
 }
 
-.navigation {
+/* .navigation {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+} */
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
 }
 
 .navigation a {
@@ -79,7 +91,8 @@ header.open .site-title {
 .navigation a:hover {
     text-decoration: underline double;
     background-color: var(--accent2-color);
-    color: var(--accent3-color)
+    color: var(--secondary-color)
+        /* changed color */
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
@@ -99,6 +112,7 @@ main {
 
 h1 {
     text-align: center;
+    margin-top: 0.75rem;
 }
 
 /* album*/
@@ -123,9 +137,6 @@ figcaption {
     margin: 0 auto;
     text-align: center;
 }
-
-
-
 
 /* Footer */
 
