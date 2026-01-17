@@ -101,7 +101,7 @@ h1 {
     text-align: center;
 }
 
-/* falta terminar de acomodar el grid e imagenes */
+/* album*/
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
