@@ -3,7 +3,7 @@
     --secondary-color: rgb(0, 0, 0);
     --accent1-color: rgb(255, 255, 255);
     --accent2-color: rgb(179, 141, 215);
-    --accent3-color: rgb(255, 255, 64);
+    --accent3-color: rgb(29, 38, 101);
 }
 
 * {
@@ -91,7 +91,7 @@ header.open .site-title {
 .navigation a:hover {
     text-decoration: underline double;
     background-color: var(--accent2-color);
-    color: var(--secondary-color)
+    color: var(--accent3-color)
         /* changed color */
 }
 
@@ -113,6 +113,7 @@ main {
 h1 {
     text-align: center;
     margin-top: 0.75rem;
+    color: var(--secondary-color);
 }
 
 /* album*/
