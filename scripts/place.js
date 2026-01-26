@@ -1,5 +1,5 @@
 // Weather
-document.addEventListener("DOMContentLoaded", () => {
+
     const temp = parseFloat(document.getElementById("temp").textContent);
     const wind = parseFloat(document.getElementById("wind").textContent);
 
@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const windChill =
         (temp <= 10 && wind > 4.8) ? `${calculateWindChill(temp, wind)} °C` : "N/A";
     document.getElementById("windchill").textContent = windChill;
-});
 
 
 //Footer

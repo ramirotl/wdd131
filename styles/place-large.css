@@ -10,6 +10,14 @@
         position: relative;
     }
 
+    .hero picture::after {
+        display: none;
+    }
+
+    .hero img {
+        object-fit: cover;
+    }
+
     .data {
         position: absolute;
         top: 1.5rem;
