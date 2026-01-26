@@ -46,7 +46,7 @@ header {
 .weather {
     background-color: var(--accent3-color);
     margin-bottom: 0.5rem;
-    padding: 0 auto;
+    padding: 0;
 }
 
 .data h2,
