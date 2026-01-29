@@ -1,6 +1,6 @@
 /* Wider view */
 @media (min-width: 880px) {
-    
+
     body {
         max-width: 880px;
         margin: 0 auto;
@@ -29,12 +29,14 @@
         bottom: 1.5rem;
         position: absolute;
         width: 260px;
-        right: 1.5rem;    
+        right: 1.5rem;
     }
 
-    .data h2, .weather h2 {
-        background-color: var(--primary-color);
+    .data h2,
+    .weather h2 {
+        background-color: var(--accent4-color);
     }
+
     .weather img {
         display: none;
     }

@@ -1,9 +1,10 @@
 :root {
-    --primary-color: rgb(16, 105, 36);
+    --primary-color: rgb(12, 89, 28);
     --secondary-color: rgb(185, 29, 29);
     --accent1-color: rgb(255, 255, 255);
     --accent2-color: rgb(0, 0, 0);
     --accent3-color: rgba(255, 255, 255, 0.9);
+    --accent4-color: rgb(229, 226, 42);
 }
 
 * {
