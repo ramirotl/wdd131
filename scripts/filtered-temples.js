@@ -94,7 +94,7 @@ const temples = [
     }
 ];
 
-//createTempleCard();
+//createTempleCard(temples);
 
 // function createTempleCard() {
 //     temples.forEach((temple) => {
@@ -122,6 +122,8 @@ const temples = [
 //         document.querySelector(".container").appendChild(card);
 //     })
 // };
+
+//new approach to create temple cards
 
 const container = document.querySelector(".container");
 
@@ -153,8 +155,6 @@ function displayTemples(templeList) {
         container.appendChild(card);
     });
 }
-
-// Initial load
 displayTemples(temples);
 
 //filtering functionality
