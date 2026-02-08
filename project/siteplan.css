@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #8C1D18;
+    --secondary-color: #2E7D32;
+    --accent1-color: #F5F5F5;
+    --accent2-color: #333;
+    --heading-font: 'Merriweather', sans-serif;
+    --body-font: 'Robot', helvetica, sans-serif;
+}
+
+body {
+    font-family: 'Robot', sans-serif;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    margin: 0;
+    padding: 1rem;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather', sans-serif;
+    color: var(--primary-color);
+}
+
+section {
+    margin-bottom: 2rem;
+}
