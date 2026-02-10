@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+header,
+footer {
+    background-color: #3a003a;
+    color: white;
+    text-align: center;
+    padding: 0.1rem;
+}
+
+footer {
+        padding: 0.5rem;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0.75rem 0;
+}
+
+main {
+    margin: 1rem auto;
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 6px;
+    max-width: 460px;
+}
+
+/* LABEL */
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* INPUTS */
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    font-size: 0.9rem;
+    /* max-width: 460px; */
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+    width: 100%;
+    max-width: 440px;
+}
+
+input[type="text"] {
+    max-width: 440px;
+}
+
+input[type="date"] {
+     max-width: 440px;
+ }
+
+/* FIELDSET */
+
+fieldset {
+    margin-top: 1rem;
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+/* STAR RATING fix this*/
+/* .star-rating {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.4rem;
+    font-weight: normal;
+    cursor: pointer;
+} */
+
+.star-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.star-rating label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 0.25rem;
+    margin-top: 0;
+}
+
+fieldset input[type="radio"] {
+    margin-right: 0.2rem;
+}
+
+/* CHECKBOX LIST */
+
+.italic {
+    font-style: italic;
+    margin-top: -0.5rem;
+}
+
+.features label {
+    margin-top: -0.05rem;
+}
+
+
+input[type="submit"] {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid #999;
+    background-color: #efefef;
+    cursor: pointer;
+    /* max-width: 460px; */
+} 
+
+
+/* CONFIRMATION PAGE */
+.confirmation {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.confirmation h1 {
+    font-size: 1.5rem;
+}
