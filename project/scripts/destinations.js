@@ -53,16 +53,29 @@ function displayDestinations(destinations) {
 
         const card = document.createElement("article");
 
-        card.innerHTML = `
-            <img src="${destination.image}" alt="${destination.name}">
-            <h3>${destination.name}</h3>
-            <p><strong>Location:</strong> ${destination.location}</p>
-            <p>${destination.description}</p>
-        `;
+        const img = document.createElement("img");
+        img.src = destination.image;
+        img.alt = destination.name;
+        img.loading = "lazy";
+        img.width = 400;
+        img.height = 300;
+
+        const title = document.createElement("h3");
+        title.textContent = destination.name;
+
+        const location = document.createElement("p");
+        location.innerHTML = `<strong>Location:</strong> ${destination.location}`;
+
+        const description = document.createElement("p");
+        description.textContent = destination.description;
+
+        card.appendChild(img);
+        card.appendChild(title);
+        card.appendChild(location);
+        card.appendChild(description);
 
         container.appendChild(card);
     });
-
 }
 
 displayDestinations(destinations);
@@ -88,4 +101,3 @@ filterButtons.forEach(button => {
     });
 
 });
-

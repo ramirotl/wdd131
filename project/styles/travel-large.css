@@ -23,12 +23,6 @@
         display: block;
         padding: 1rem;
     }
-    /* nav ul {
-        display: flex;
-        gap: 1.5rem;
-        flex-direction: row;
-        justify-content: flex-end;
-    } */
 
     .cards {
         flex-direction: row;

@@ -4,6 +4,8 @@
     --background-color: #F5F5F5;
     --accent1-color: #333;
     --accent2-color: #ffff29;
+    --accent3-color: #fff;
+    --accent4-color: #ccc;
     --heading-font: 'Merriweather', serif;
     --body-font: 'Roboto', sans-serif;
 }
@@ -37,7 +39,7 @@ header {
     font-weight: bold;
     padding: 1rem;
     display: block;
-    color: white;
+    color: var(--accent3-color);
 }
 
 /* Hamburger button */
@@ -46,7 +48,7 @@ header {
     font-size: 1.8rem;
     border: 0;
     background: none;
-    color: white;
+    color: var(--accent3-color);
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -76,7 +78,7 @@ header.open .site-title {
 }
 
 .navigation a {
-    color: white;
+    color: var(--accent3-color);
     text-decoration: none;
     display: none;
     text-align: center;
@@ -129,7 +131,7 @@ h2 {
 }
 
 .card {
-    background-color: white;
+    background-color: var(--accent3-color);
     padding: 1rem;
     border-radius: 8px;
 }
@@ -143,7 +145,7 @@ h2 {
 
 footer {
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--accent3-color);
     text-align: center;
     padding: 1rem;
 }

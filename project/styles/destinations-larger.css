@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 770px) {
 
     header {
         display: flex;
@@ -28,10 +28,3 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-/* @media (min-width: 1024px) {
-
-    #destination-cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
-} */
