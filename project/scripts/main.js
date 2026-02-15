@@ -4,6 +4,7 @@ const navigation = document.querySelector(".navigation");
 const header = document.querySelector("header");
 
 // Toggle Menu
+
 if (hamButton) {
     hamButton.addEventListener("click", () => {
         navigation.classList.toggle("open");
