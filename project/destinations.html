@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore Bolivia travel destinations.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations | Bolivia Travel Explorer</title>
+    <link rel="stylesheet" href="styles/destinations.css">
+    <link rel="stylesheet" href="styles/destinations-larger.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/destinations.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <span class="site-title">Bolivia Travel Explorer</span>
+    
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+    
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Explore Our Destinations</h2>
+        <div class="filters">
+            <button data-category="All">All</button>
+            <button data-category="Nature">Nature</button>
+            <button data-category="Culture">Culture</button>
+            <button data-category="Cities">Cities</button>
+        </div>
+        <section id="destination-cards"></section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="year"></span> | Ramiro Tapia | Bolivia
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
